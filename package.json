@@ -2,7 +2,10 @@
   "name": "trackbuddy-shared",
   "version": "1.0.0",
   "description": "Shared TypeScript types for the TrackBuddy app",
-  "main": "index.ts",
+	"main": "index.ts",
+	"repository": {
+		"url": "https://github.com/PavelSrom/TrackBuddy-Shared"
+	},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
