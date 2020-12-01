@@ -1,20 +1,20 @@
-export type RegisterASP = {
+export interface RegisterASP {
   firstName: string
   lastName: string
   email: string
   password: string
 }
 
-export type LoginASP = {
+export interface LoginASP {
   email: string
   password: string
 }
 
-export type NewPasswordASP = {
+export interface NewPasswordASP {
   email: string
 }
 
-export type PasswordResetASP = {
+export interface PasswordResetASP {
   oldPassword: string
   newPassword: string
   confirmNewPassword: string
