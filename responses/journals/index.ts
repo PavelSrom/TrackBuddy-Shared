@@ -1,4 +1,4 @@
-type JournalBriefASR = {
+export type JournalBriefASR = {
   _id: string
   isStarred: boolean
   mood: 1 | 2 | 3 | 4 | 5
@@ -6,7 +6,7 @@ type JournalBriefASR = {
   tags: string[]
 }
 
-type JournalFullASR = {
+export type JournalFullASR = {
   _id: string
   user: string
   isStarred: boolean

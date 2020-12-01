@@ -1,4 +1,4 @@
-type JournalFullASP = {
+export type JournalFullASP = {
   mood: 1 | 2 | 3 | 4 | 5
   standout: string
   wentWell: string
