@@ -4,6 +4,7 @@ export interface JournalBriefASR {
   mood: 1 | 2 | 3 | 4 | 5
   standout: string
   tags: string[]
+  createdAt: string
 }
 
 export interface JournalFullASR {
@@ -17,4 +18,6 @@ export interface JournalFullASR {
   betterNextTime: string
   excuses: string
   tags: string[]
+  createdAt: string
+  updatedAt: string
 }

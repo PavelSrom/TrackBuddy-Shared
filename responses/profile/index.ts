@@ -3,4 +3,6 @@ export interface UserProfileASR {
   firstName: string
   lastName: string
   email: string
+  avatar: string
+  tags: string[]
 }
